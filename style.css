@@ -1,3 +1,4 @@
+
 header {
   font-family: 'Monoton', cursive;
   font-size: xx-large;
@@ -8,6 +9,38 @@ header {
 }
 
 .images {
+  height: 10rem;
+  width: 11rem;
+}
+
+.scissors {
+  background-image: url("./scissors.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: 11rem;
+}
+
+.rock {
+  background-image: url("./rock.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: 11rem;
+}
+
+.paper {
+  background-image: url("./paper.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10rem;
+  width: 11rem;
+}
+
+.computer {
+  background-image: url("./computer.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 10rem;
   width: 11rem;
 }

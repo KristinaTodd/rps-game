@@ -26,20 +26,26 @@
       <div class="col-12 col-md-6 text-center">
         <h4>Make Your Choice!</h4>
         <div class="row">
-          <button class="col-12 ">
-            <img src="paper image.png" alt="paper" class="images">
+          <button class="col-12 " onclick="playPaper()">
+            <img src="paper.png" alt="paper" class="images">
           </button>
-          <button class="col-12 ">
-            <img src="rock image.png" alt="rock" class="images">
+          <button class="col-12 " onclick="playRock()">
+            <img src="rock.png" alt="rock" class="images">
           </button>
-          <button class="col-12 ">
-            <img src="scissors image.png" alt="scissors" class="images">
+          <button class="col-12 " onclick="playScissors()">
+            <img src="scissors.png" alt="scissors" class="images">
           </button>
         </div>
       </div>
       <div class="col-12 col-md-6 text-center">
         <h4>Computer's Choice</h4>
+        <div class="row">
+          <div class="col-12" id="computer-choice text-center">
+            <div id="computerChoiceImage" class="computer "></div>
+          </div>
+        </div>
       </div>
+
 
     </div>
 
