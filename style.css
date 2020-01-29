@@ -1,0 +1,13 @@
+header {
+  font-family: 'Monoton', cursive;
+  font-size: xx-large;
+}
+
+.game-area {
+  background-color: aquamarine;
+}
+
+.images {
+  height: 10rem;
+  width: 11rem;
+}
