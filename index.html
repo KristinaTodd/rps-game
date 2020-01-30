@@ -26,13 +26,13 @@
       <div class="col-12 col-md-6 text-center">
         <h4>Make Your Choice!</h4>
         <div class="row">
-          <button class="col-12 " onclick="playPaper()">
+          <button class="col-12 border-0" onclick="playPaper()">
             <img src="paper.png" alt="paper" class="images">
           </button>
-          <button class="col-12 " onclick="playRock()">
+          <button class="col-12 border-0" onclick="playRock()">
             <img src="rock.png" alt="rock" class="images">
           </button>
-          <button class="col-12 " onclick="playScissors()">
+          <button class="col-12 border-0" onclick="playScissors()">
             <img src="scissors.png" alt="scissors" class="images">
           </button>
         </div>
@@ -40,9 +40,19 @@
       <div class="col-12 col-md-6 text-center">
         <h4>Computer's Choice</h4>
         <div class="row">
-          <div class="col-12" id="computer-choice text-center">
+          <div class="col-12 " id="computer-choice center">
             <div id="computerChoiceImage" class="computer "></div>
           </div>
+          <div id="winning" class="col-12 invisible">
+            <h1>YOU WIN!</h1>
+          </div>
+          <div id="losing" class="col-12 invisible">
+            <h1>YOU LOSE!</h1>
+          </div>
+          <div id="tie" class="col-12 invisible">
+            <h1>IT'S A TIE!</h1>
+          </div>
+
         </div>
       </div>
 

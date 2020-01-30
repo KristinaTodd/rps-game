@@ -4,6 +4,11 @@ header {
   font-size: xx-large;
 }
 
+button {
+  outline: none;
+  background-color: aquamarine;
+}
+
 .game-area {
   background-color: aquamarine;
 }
@@ -17,6 +22,7 @@ header {
   background-image: url("./scissors.png");
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 6rem;
   height: 10rem;
   width: 11rem;
 }
@@ -25,6 +31,7 @@ header {
   background-image: url("./rock.png");
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 6rem;
   height: 10rem;
   width: 11rem;
 }
@@ -33,14 +40,17 @@ header {
   background-image: url("./paper.png");
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 6rem;
+  
   height: 10rem;
   width: 11rem;
 }
 
-.computer {
+/* .computer {
   background-image: url("./computer.png");
   background-size: contain;
   background-repeat: no-repeat;
+
   height: 10rem;
   width: 11rem;
-}
+} */
